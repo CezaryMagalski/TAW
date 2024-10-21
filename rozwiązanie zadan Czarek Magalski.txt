@@ -1,0 +1,58 @@
+using System;
+
+public class HelloWorld
+{
+    public static double poleTrojkata(double a, double h)
+    {
+        return a * h / 2;
+    }
+
+    public static double poleKwadratu(double a)
+    {
+        return a * a;
+    }
+
+    public static double poleTrapeza(double a, double b, double h)
+    {
+        return (a + b) * h / 2;
+    }
+
+    public static double poleRownolegloboku(double a, double h)
+    {
+        return a * h;
+    }
+
+    public static double poleRombu(double a, double h)
+    {
+        return a * h;
+    }
+
+    public static double poleSzesciokat(double a)
+    {
+        return 3 * a * a * Math.Sqrt(3) / 2;
+    }
+
+    public static double poleKola(double pi, double r)
+    {
+        return pi * r * r;
+    }
+
+    public static double poleWycinkaKola(double r, double alpha)
+    {
+        return alpha * Math.PI * r * r / 360;
+    }
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Pole trojkata: " + poleTrojkata(2, 3));
+        Console.WriteLine("Pole kwadratu: " + poleKwadratu(2));
+        Console.WriteLine("Pole trapezu: " + poleTrapeza(5, 5, 2));
+        Console.WriteLine("Pole rownolegloboku: " + poleRownolegloboku(2, 5));
+        Console.WriteLine("Pole rombu: " + poleRombu(5, 2));
+        Console.WriteLine("Pole szesciokata: " + poleSzesciokat(2));
+        Console.WriteLine("Pole kola: " + poleKola(3.14, 4));
+        Console.WriteLine("Pole wycinka kola: " + poleWycinkaKola(2, 45));
+    }
+}
+
+Czarek Magalski  3a
