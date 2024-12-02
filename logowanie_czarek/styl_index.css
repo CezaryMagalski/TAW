@@ -1,0 +1,118 @@
+header {
+    background-color: #acb7ae;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color:  #e4decd;
+    height: auto;
+    margin: 0px;
+}
+
+header > #logo {
+    float: left;
+}
+
+header > #menu {
+    float: left;
+    padding: 10px;
+    right: 710px;
+}
+
+header > #konto {
+    float: right;
+    padding: 10px;
+
+}
+
+button {
+    padding: 25px;
+    margin: 10px;
+}
+
+header > #menu > button {
+    border-radius: 15px;
+    background-image: linear-gradient(black, grey);
+    color: white;
+    box-shadow: 7px 7px 7px dimgray;
+}
+
+header > #konto > button {
+    border-radius: 40px;
+    background-image: linear-gradient(black, grey);
+    color: white;
+    box-shadow: 7px 7px 7px dimgray;
+}
+
+section {
+    margin: auto;
+    min-width: 300px;
+}
+
+#lewy {
+    clear:both;
+    width: 10%;
+    background-color: #acb7ae;
+    height: 1050px;
+    float: left;
+}
+
+#prawy {
+    width: 10%;
+    background-color: #acb7ae;
+    height: 1050px;
+    float: left;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    height: 780px;
+    float: left;
+}
+
+.oferta {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    border: solid 1px black;
+    height: 500px;
+    align-items: center;
+}
+
+.zdj {
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.dodaj {
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    box-shadow: 7px 7px 7px dimgray;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+}
+
+.dodaj:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #393e46;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+ }
